@@ -42,6 +42,6 @@ This is a foundational lab for cloud security, ensuring proper access management
 
 ## Screenshots
 *(All sensitive info, such as Object IDs, is masked or blurred.)*  
-
+- 'images/noc-user-error.img' - NOC user blocked from creating VM 
 
 
