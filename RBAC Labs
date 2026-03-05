@@ -1,0 +1,30 @@
+# RBAC Lab - Azure
+
+## Objective
+Test role-based access control (RBAC) with 3 users and 3 groups.
+
+## Steps
+1. Created users: noc-user, security-user, cloud-admin
+
+
+2. Created groups: NOC-Team, Security-Team, Cloud-Admins
+
+
+3. Added users to groups
+4. Created resource group: rg-cloud-security-labs
+5. Assigned roles:
+   - NOC-Team → Reader
+   - Security-Team → Contributor
+   - Cloud-Admins → Owner
+
+
+6. Tested access by logging in as noc-user and security-user
+
+## Observations
+- NOC-Team users could view resources but could not create them.
+- Contributor group could create resources.
+- Owner had full control.
+
+## Security Takeaways
+- Least privilege works as expected.
+- Group-based RBAC is scalable and secure.
