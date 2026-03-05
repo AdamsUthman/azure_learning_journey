@@ -44,4 +44,4 @@ This is a foundational lab for cloud security, ensuring proper access management
 *(All sensitive info, such as Object IDs, is masked or blurred.)*  
 - "RBAC Labs/images/noc-user-error.png" - NOC user blocked from creating VM 
 
-
+![images/noc-user-error.png] - NOC user blocked from creating VM 
