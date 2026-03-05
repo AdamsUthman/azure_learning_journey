@@ -45,11 +45,10 @@ This is a foundational lab for cloud security, ensuring proper access management
 
 ![images/noc-user-error.png](images/noc-user-error.png)
 NOC user blocked from creating VM
-
-
+*****************************************************************************************************************************************************************************
 ![images/vm-create-success.png](images/vm-create-success.png)
 Security-Team user successfully created VM
-
+*****************************************************************************************************************************************************************************
 
 ![images/cloudadmin-full-access.png](images/cloudadmin-full-access.png)
 Cloud-Admins full permissions view
