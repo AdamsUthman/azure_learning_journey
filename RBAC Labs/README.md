@@ -14,12 +14,12 @@ We configure users, groups, virtual networks, subnets, VMs, and test connectivit
 ---
 
 ## Folder Structure
+```text
 RBAC-Labs/
 ├─ phase1-user-setup/
 ├─ phase2-NSG-configuration/
 ├─ phase3-VM-testing/
 └─ README.md
-
 
 
 
