@@ -15,5 +15,35 @@
 # From vm-noc
 ping 10.0.2.4          # Should succeed ✅
 ssh azureuser@10.0.2.4 # Should succeed ✅
+```
+![/RBAC%20Labs/images/ping_vm-security.png](/RBAC%20Labs/images/ping_vm-security.png)
+![/RBAC%20Labs/images/ssh-vm-security.png](/RBAC%20Labs/images/ssh-vm-security.png)
 
+#### Observation:
+- NOC subnet can reach Security VM; SSH and ping succeed.
 
+### Step 2 — Security → VM-NOC (Denied)
+
+```bash
+# From vm-security
+ping 10.0.1.4          # Should succeed ✅
+ssh azureuser@10.0.1.4 # Should fail ❌
+```
+![/RBAC%20Labs/images/ping-vm-noc.png](/RBAC%20Labs/images/ping-vm-noc.png)
+![/RBAC%20Labs/images/denied-ssh.png](/RBAC%20Labs/images/denied-ssh.png)
+
+#### Observation:
+- NSG denies SSH but allows ping, as expected.
+
+### Step 3 — NOC → VM-NOC (Internal Subnet Access)
+
+```bash
+# From vm-security
+ping 10.0.2.4           # Should succeed ✅
+ssh azureuser@10.0.2.4  # Should succeed ✅
+```
+![/RBAC%20Labs/images/ping-from-vm-noc-to-self.png](/RBAC%20Labs/images/ping-from-vm-noc-to-self.png)
+![/RBAC%20Labs/images/ssh-noc-noc.png](/RBAC%20Labs/images/ssh-noc-noc.png)
+
+#### Observation:
+- NOC users can reach other NOC VMs within the same subnet.

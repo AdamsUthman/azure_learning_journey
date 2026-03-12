@@ -4,6 +4,9 @@
 - Created virtual network `vnet-lab` with subnets:
   - `subnet-noc` for NOC VMs
   - `subnet-security` for Security VMs
+
+![/RBAC%20Labs/images/vnet-and-subnets.png](/RBAC%20Labs/images/vnet-and-subnets.png)
+
 - Deployed VMs in corresponding subnets
 - Configured NSG rules:
 
