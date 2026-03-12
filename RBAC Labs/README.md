@@ -1,54 +1,27 @@
-# RBAC Lab - Azure Cloud Security
+# Azure Cloud Security Lab — RBAC & NSG Configuration
 
-## Objective
-The purpose of this lab is to understand and implement **Role-Based Access Control (RBAC)** in Microsoft Azure. This lab demonstrates how to:
+## Overview
+This lab demonstrates **Role-Based Access Control (RBAC)** and **Network Security Group (NSG) configurations** in Azure.  
+We configure users, groups, virtual networks, subnets, VMs, and test connectivity to validate **allowed and denied access**.
 
-- Create users and groups in **Microsoft Entra ID**
-- Assign users to groups
-- Assign RBAC roles to groups for a resource group
-- Test the principle of **least privilege** by logging in as different users
+**Objectives:**
+- Create users and assign roles for NOC, Security, and Admin teams
+- Configure resource groups and virtual networks
+- Deploy VMs in different subnets
+- Apply NSG rules to control SSH and ICMP traffic
+- Validate connectivity via testing
 
-This is a foundational lab for cloud security, ensuring proper access management and minimizing risk.
+---
 
-## Lab Setup
-**Environment:**  
-- Azure Student Subscription  
-- Resource Group: `rg-cloud-security-labs`  
-- Users: `noc-user`, `security-user`, `cloud-admin`  
-- Groups: `NOC-Team`, `Security-Team`, `Cloud-Admins`  
-- Roles Assigned:  
-  - NOC-Team → Reader  
-  - Security-Team → Contributor  
-  - Cloud-Admins → Owner
+## Folder Structure
+RBAC-Labs/
+├─ phase1-user-setup/
+├─ phase2-NSG-configuration/
+├─ phase3-VM-testing/
+└─ README.md
 
-**Steps Taken:**  
-1. Created users in Microsoft Entra ID  
-2. Created groups and added users  
-3. Created a resource group `rg-cloud-security-labs`  
-4. Assigned RBAC roles to groups  
-5. Logged in as each user to verify access  
-6. Documented observations
 
-## Observations
-- NOC-Team users can **view resources** but cannot create or modify them  
-- Security-Team users can **create and modify resources** but cannot delete the resource group  
-- Cloud-Admins have **full control** over the resource group  
-- RBAC correctly enforces **least privilege**  
 
-## Takeaways / Security Insights
-- Using **groups instead of individual users** simplifies access management  
-- Proper RBAC configuration reduces risk of accidental or malicious changes  
-- Testing with different accounts validates security and access policies  
 
-## Screenshots
-*(All sensitive info, such as Object IDs, is masked or blurred.)*  
 
-![images/noc-user-error.png](images/noc-user-error.png)
-NOC user blocked from creating VM
-*****************************************************************************************************************************************************************************
-![images/vm-create-success.png](images/vm-create-success.png)
-Security-Team user successfully created VM
-*****************************************************************************************************************************************************************************
 
-![images/cloudadmin-full-access.png](images/cloudadmin-full-access.png)
-Cloud-Admins full permissions view
