@@ -20,6 +20,7 @@ RBAC-Labs/
 ├─ phase2-NSG-configuration/
 ├─ phase3-VM-testing/
 ├─ phase4-security-policies
+├─phase5-data&secrets-security
 └─ README.md
 
 

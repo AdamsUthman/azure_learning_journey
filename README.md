@@ -16,10 +16,6 @@ The purpose of this repo is to:
 ```text
 Azure-Learning-Journey/
 ├─ RBAC-Labs/                # Role-Based Access Control labs
-│   ├─ phase1-user-setup/
-│   ├─ phase2-NSG-configuration/
-│   ├─ phase3-VM-testing/
-│   └─ README.md
 ├─ Networking-Labs/          # Networking & subnetting exercises
 ├─ VM-Deployments/           # Virtual Machine deployment practice
 ├─ Security-Policies/        # Conditional access, MFA, break-glass admin accounts
