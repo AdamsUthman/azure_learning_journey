@@ -1,9 +1,13 @@
 # Adams' Azure Learning Journey
 
 ## Overview
-This repository documents my **hands-on Azure learning journey**, focused on cloud security, RBAC, NSG configuration, and VM deployment.  
-It captures all practical labs, observations, and insights from each phase, along with screenshots, commands, and takeaways.
 
+Welcome to my **Azure Learning Journey** repository.  
+This repository documents hands-on labs, exercises, and observations while learning **Azure cloud security, networking, monitoring, and identity management**.
+
+It is organized into numbered folders to reflect the learning progression, from foundational concepts to advanced security and monitoring.
+
+---
 The purpose of this repo is to:
 - Track learning progress
 - Document labs and exercises
@@ -20,48 +24,120 @@ The purpose of this repo is to:
 03-Monitoring-Labs/
 04-Security-Policies/
 05-Notes/
----
-
-## Learning Objectives
-- Understand **Azure fundamentals**, including subscriptions, resource groups, and virtual networks
-- Implement **Role-Based Access Control (RBAC)** for secure access management
-- Configure **Network Security Groups (NSGs)** for subnet-level traffic control
-- Deploy **virtual machines** and test connectivity between subnets
-- Explore **Azure security best practices** such as MFA, conditional access, and break-glass accounts
-- Develop a structured **documentation habit** using Markdown, GitHub, and screenshots
+```
 
 ---
 
-## How to Use This Repository
-1. Navigate to each lab folder to access **step-by-step exercises**
-2. Review the `README.md` in each lab folder for:
-   - Lab setup and objectives
-   - Commands and scripts used
-   - Observations and takeaways
-   - Screenshots for validation
-3. Document your own findings and mark completed steps
-4. Use the **Notes folder** for extra learning, cheat sheets, or reminders
+## 01-RBAC-Labs
+
+**Focus:** Identity & Role-Based Access Control (RBAC)
+
+Labs in this folder help you understand:
+
+- Creating users and groups in Microsoft Entra ID
+- Assigning RBAC roles
+- Testing permissions using different accounts
+- Implementing least privilege
+
+**Labs:**
+
+- phase1-user-setup
 
 ---
 
-## Key Takeaways
-- Hands-on labs reinforce **least privilege principles** and proper access management
-- NSG rules and VM connectivity require careful planning, especially with priority orders
-- Testing with multiple accounts and IP scenarios is essential to validate security controls
-- Maintaining organized documentation (folders, Markdown, screenshots) accelerates learning
-- Cloud Shell sessions are ephemeral — always save scripts or outputs to persistent storage
+## 02-Networking-Labs
+
+**Focus:** Azure Virtual Networking and Security
+
+Labs in this folder cover:
+
+- Virtual Networks (VNets) and Subnets
+- Network Security Groups (NSGs)
+- SSH / ICMP connectivity tests between VMs
+- Traffic restriction and security at the subnet level
+
+**Labs:**
+
+- phase2-NSG-configuration
+- phase3-VM-testing
 
 ---
 
-## Recommendations
-- Always test access with **non-admin accounts** to verify RBAC
-- Use **private IPs for VM-to-VM tests** to avoid unnecessary public exposure
-- Keep screenshots **masked or blurred** to protect sensitive info like Object IDs
-- Update this repo continuously as your Azure skills grow
-- Pair labs with learning resources like **Microsoft Learn, Azure docs, and certification guides**
+## 03-Monitoring-Labs
+
+**Focus:** Monitoring, Logging, and Alerts
+
+Labs in this folder teach:
+
+- Azure Activity Log
+- Alert Rules & Action Groups
+- Storage account for diagnostics
+- Testing monitoring and alerting
+
+**Labs:**
+
+- phase4-monitoring-alerts
 
 ---
 
-## Notes
-This repository is intended as a **personal reference and study tool** for Azure learning and cloud security.  
-It can serve as a foundation for **Azure certifications**, cloud engineering roles, and security projects.
+## 04-Security-Policies
+
+**Focus:** Identity Security, Policies, and Secrets Management
+
+Labs in this folder include:
+
+- Security Defaults and Multi-Factor Authentication (MFA)
+- Break-glass administrator accounts
+- Key Vault creation and secrets management
+- RBAC for Key Vault and sensitive resources
+
+**Labs:**
+
+- phase4-identity-security
+- phase5-data-secrets-security
+
+---
+
+## 05-Notes
+
+**Focus:** Personal notes, observations, and key concepts learned during the Azure learning journey.
+
+Contents may include:
+
+- Security insights
+- Troubleshooting notes
+- Azure commands
+- Exam preparation notes
+- Lessons learned from labs
+
+---
+
+## How to Use This Repo
+
+1. Start from **01-RBAC-Labs** to learn identity fundamentals.  
+2. Progress through **Networking-Labs** and **Monitoring-Labs**.  
+3. Explore **Security-Policies** to understand identity protection and secrets management.  
+4. Reference **Notes** for tips, insights, and commands.
+
+> This structured approach helps consolidate Azure cloud security skills from foundational to advanced.
+
+---
+
+## Tips for Learning
+
+- Work on **labs sequentially** to follow the progression.  
+- Document your observations for each lab in a markdown file.  
+- Use GitHub to **track progress and maintain versioning** of your exercises.  
+- Include screenshots for key steps and outputs.  
+- Experiment safely in your **Azure Student Subscription**.
+
+---
+
+## Goal
+
+By completing these labs, you will be able to:
+
+> Secure an Azure environment using identity, networking, monitoring, and threat detection.
+
+This repository is designed to showcase your hands-on skills for **Cloud Security Engineer roles**.
+
