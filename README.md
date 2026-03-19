@@ -23,7 +23,6 @@ The purpose of this repo is to:
 02-Networking-Labs/
 03-Monitoring-Labs/
 04-Security-Policies/
-05-Notes/
 ```
 
 ---
