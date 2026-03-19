@@ -32,7 +32,7 @@
 ## Screenshots
 *(All sensitive info, such as Object IDs, is masked or blurred.)*  
 
-![/RBAC%20Labs/images/noc-user-error.png](/RBAC%20Labs/images/noc-user-error.png)
+![](/images/noc-user-error.png) 
 NOC user blocked from creating VM
 *****************************************************************************************************************************************************************************
 ![/RBAC%20Labs/images/vm-create-success.png](/RBAC%20Labs/images/vm-create-success.png)
