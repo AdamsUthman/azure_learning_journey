@@ -97,20 +97,6 @@ Labs in this folder include:
 
 ---
 
-## 05-Notes
-
-**Focus:** Personal notes, observations, and key concepts learned during the Azure learning journey.
-
-Contents may include:
-
-- Security insights
-- Troubleshooting notes
-- Azure commands
-- Exam preparation notes
-- Lessons learned from labs
-
----
-
 ## How to Use This Repo
 
 1. Start from **01-RBAC-Labs** to learn identity fundamentals.  
