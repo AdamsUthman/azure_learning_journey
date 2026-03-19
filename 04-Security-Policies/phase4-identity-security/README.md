@@ -40,4 +40,4 @@
 
 
 ### Below is a screenshot of the sign-in logs showing users logged in successfully with MFA enabled
-![/RBAC%20Labs/images/signin-logs.png)](/RBAC%20Labs/images/signin-logs.png)
+![](images/signin-logs.png)

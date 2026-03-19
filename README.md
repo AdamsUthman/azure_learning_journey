@@ -12,16 +12,14 @@ The purpose of this repo is to:
 
 ---
 
-## Folder Structure
-```text
-Azure-Learning-Journey/
-├─ RBAC-Labs/                # Role-Based Access Control labs
-├─ Networking-Labs/          # Networking & subnetting exercises
-├─ VM-Deployments/           # Virtual Machine deployment practice
-├─ Security-Policies/        # Conditional access, MFA, break-glass admin accounts
-├─ Notes/                    # Key insights, cheatsheets, and concepts
-└─ README.md                 # Root folder overview
+## 📂 Repository Structure
 
+```text
+01-RBAC-Labs/
+02-Networking-Labs/
+03-Monitoring-Labs/
+04-Security-Policies/
+05-Notes/
 ---
 
 ## Learning Objectives

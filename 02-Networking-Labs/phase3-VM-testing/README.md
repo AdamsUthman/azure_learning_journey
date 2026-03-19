@@ -16,8 +16,8 @@
 ping 10.0.2.4          # Should succeed ✅
 ssh azureuser@10.0.2.4 # Should succeed ✅
 ```
-![/RBAC%20Labs/images/ping_vm-security.png](/RBAC%20Labs/images/ping_vm-security.png)
-![/RBAC%20Labs/images/ssh-vm-security.png](/RBAC%20Labs/images/ssh-vm-security.png)
+![](/images/ping_vm-security.png)
+![](/images/ssh-vm-security.png)
 
 #### Observation:
 - NOC subnet can reach Security VM; SSH and ping succeed.
@@ -29,8 +29,8 @@ ssh azureuser@10.0.2.4 # Should succeed ✅
 ping 10.0.1.4          # Should succeed ✅
 ssh azureuser@10.0.1.4 # Should fail ❌
 ```
-![/RBAC%20Labs/images/ping-vm-noc.png](/RBAC%20Labs/images/ping-vm-noc.png)
-![/RBAC%20Labs/images/denied-ssh.png](/RBAC%20Labs/images/denied-ssh.png)
+![](/images/ping-vm-noc.png)
+![](/images/denied-ssh.png)
 
 #### Observation:
 - NSG denies SSH but allows ping, as expected.
@@ -42,8 +42,8 @@ ssh azureuser@10.0.1.4 # Should fail ❌
 ping 10.0.2.4           # Should succeed ✅
 ssh azureuser@10.0.2.4  # Should succeed ✅
 ```
-![/RBAC%20Labs/images/ping-from-vm-noc-to-self.png](/RBAC%20Labs/images/ping-from-vm-noc-to-self.png)
-![/RBAC%20Labs/images/ssh-noc-noc.png](/RBAC%20Labs/images/ssh-noc-noc.png)
+![](/images/ping-from-vm-noc-to-self.png)
+![](/images/ssh-noc-noc.png)
 
 #### Observation:
 - NOC users can reach other NOC VMs within the same subnet.

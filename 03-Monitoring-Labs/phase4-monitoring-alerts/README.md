@@ -50,6 +50,7 @@ Examples seen:
 - Role assignments
 - Resource updates
 
+![](/images/activity-log.png)
 ---
 
 ## Step 2 — Create Storage Account for Diagnostics
@@ -73,6 +74,7 @@ Observation:
 
 Storage account can store diagnostic logs.
 
+![](/images/storage-account.png)
 ---
 
 ## Step 3 — Create Action Group
@@ -94,6 +96,7 @@ Observation:
 
 Action group sends notifications when alerts trigger.
 
+![](/images/action-group.png)
 ---
 
 ## Step 4 — Create Alert Rule
@@ -124,6 +127,7 @@ Observation:
 
 Alert rule triggers when administrative activity occurs.
 
+![](/images/alert-rule.png)
 ---
 
 ## Step 5 — Test Alert
@@ -188,13 +192,3 @@ Azure Monitor Agent is replacing old diagnostics extensions.
 - Monitoring is part of cloud security architecture
 
 ---
-
-## Screenshots
-
-(Add screenshots)
-
-activity-log.png  
-alert-rule.png  
-action-group.png  
-storage-account.png  
-alert-test.png

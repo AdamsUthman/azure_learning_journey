@@ -1,29 +1,19 @@
-# Azure Cloud Security Lab — RBAC & NSG Configuration
+# RBAC Labs
 
-## Overview
-This lab demonstrates **Role-Based Access Control (RBAC)** and **Network Security Group (NSG) configurations** in Azure.  
-We configure users, groups, virtual networks, subnets, VMs, and test connectivity to validate **allowed and denied access**.
+This folder contains labs focused on **Azure Role-Based Access Control (RBAC)** and identity fundamentals.
 
-**Objectives:**
-- Create users and assign roles for NOC, Security, and Admin teams
-- Configure resource groups and virtual networks
-- Deploy VMs in different subnets
-- Apply NSG rules to control SSH and ICMP traffic
-- Validate connectivity via testing
+Topics covered:
 
----
+- Creating users in Microsoft Entra ID
+- Creating groups
+- Assigning RBAC roles
+- Understanding scope hierarchy
+- Testing least privilege access
 
-## Folder Structure
-```text
-RBAC-Labs/
-├─ phase1-user-setup/
-├─ phase2-NSG-configuration/
-├─ phase3-VM-testing/
-├─ phase4-security-policies
-├─phase5-data&secrets-security
-└─ README.md
+Goal:
 
+Understand how access is controlled in Azure and how to apply the **principle of least privilege**.
 
+Labs:
 
-
-
+- phase1-user-setup
