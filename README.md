@@ -138,5 +138,5 @@ By completing these labs, you will be able to:
 
 > Secure an Azure environment using identity, networking, monitoring, and threat detection.
 
-This repository is designed to showcase your hands-on skills for **Cloud Security Engineer roles**.
+This repository is designed to showcase my hands-on skills for **Cloud Security Engineer roles**.
 
