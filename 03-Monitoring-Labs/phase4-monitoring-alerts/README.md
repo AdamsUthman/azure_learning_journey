@@ -62,7 +62,7 @@ Settings:
 Name: stcloudsecuritylabs  
 Region: eastus  
 Performance: Standard  
-Redundancy: LRS  
+Redundancy: GRS  
 Primary workload: Other
 
 Security:

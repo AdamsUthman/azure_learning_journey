@@ -40,4 +40,4 @@
 
 
 ### Below is a screenshot of the sign-in logs showing users logged in successfully with MFA enabled
-![](images/signin-logs.png)
+![](/images/signin-logs.png)
