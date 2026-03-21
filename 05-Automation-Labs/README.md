@@ -15,9 +15,6 @@ This folder contains labs for **Phase 6 — Automation & Security Engineering**,
 
 ---
 
-
----
-
 ## Notes
 
 - Each phase lab is self-contained inside its subfolder.
